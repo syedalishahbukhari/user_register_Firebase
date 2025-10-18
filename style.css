@@ -18,3 +18,16 @@
     padding: 10px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width:500px) {
+    
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+}
