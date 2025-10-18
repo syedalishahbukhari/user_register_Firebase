@@ -1,0 +1,20 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    margin: 50px auto;
+}
+
+.container input{
+    padding: 10px;
+}
+
+.container button{
+    background-color: purple;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
