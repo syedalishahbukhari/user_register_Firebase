@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-storage.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
 
     <h1>Welcome To .....</h1>
+
+
     
+    <div class="container">
+        <input id="name" type="text" placeholder="Enter the  Name">
+        <input id="email" type="text" placeholder="Enter The Email">
+        <input id="age" type="number" placeholder="Enter The Age">
+        <input id="cnic" type="number" placeholder="Enter The CNIC">
+        <input id="address" type="text" placeholder="Enter The Address">
+        <input id="phoneno" type="number" placeholder="Enter The phoneno">
+        <input id="gender" type="text" placeholder="Enter The Gender">
+        <button onclick="getfulldata()">Submit</button>
+     
+           
+    </div>
+    
+    
+
+
+    <script src="./api.js"></script>
+    <script src="./landingpage.js"></script>
 </body>
 </html>
